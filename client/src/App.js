@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
 import { uploadFile } from './service/api';
-
+const hostname ='0.0.0.0';
 function App() {
+  
   const [file, setFile] = useState('');
   const [result, setResult] = useState('');
 
